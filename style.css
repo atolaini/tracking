@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.wrap {
+    position: absolute;
+    height: 70vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    background: #161616;
+
+}
+
+/* #ball {
+    width: 60px;
+    height: 60px;
+    background: none;
+    border: 1px solid grey;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -10px 0 0 -10px;
+    pointer-events: none;
+} */
+
+svg {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: -1px 0 0 -1px;
+    pointer-events: none;
+    opacity: .5;
+    filter: blur(1.5px);
+}
